@@ -22,7 +22,7 @@ st.markdown("Assistant Agent Powered by Groq.")
 # Data collection/inputs
 with st.form("company_info", clear_on_submit=True):
 
-    product_name = st.text_input("**Product Name** (What product are you selling?):")
+    product_name = st.text_input("**Product Name** hat product are you selling?):")
 
     company_url = st.text_input(
         "**Company URL** (The URL of the company you are targeting):"
